@@ -9,3 +9,32 @@ body {
     background-color:#ddf5e7;
     border-radius: 20px;
 }
+
+h1, h2, h3 {
+    font-family: "Merriweather", serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+h3 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+p {
+    font-family: "Liter", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
