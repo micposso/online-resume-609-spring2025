@@ -71,3 +71,11 @@ nav ul {
     font-size: 14px;
 }
 
+@media screen and (max-width: 576px) {
+  .container {
+    display: block;
+    flex-direction: column-reverse;
+  }
+
+  }
+
