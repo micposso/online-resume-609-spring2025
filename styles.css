@@ -1,7 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #eff0e4;
     font-family: "Liter", serif;
-    scroll-behavior: smooth;
+    border: 0px;
+    padding: 0px;
 }
 
 .container {
@@ -46,6 +51,9 @@ nav {
     background-color: coral;
     padding: 5px;
     filter: drop-shadow(5px 5px 5px #302b2b);
+    position: fixed;
+    width: 100%;
+    top: 0px;
 }
 
 nav ul {
