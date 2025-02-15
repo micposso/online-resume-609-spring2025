@@ -1,6 +1,7 @@
 body {
     background-color: #eff0e4;
     font-family: "Liter", serif;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -40,3 +41,18 @@ p {
     font-style: normal;
     font-size: 14px;
 }
+
+nav {
+    background-color: coral;
+    padding: 5px;
+    filter: drop-shadow(5px 5px 5px #302b2b);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    margin: 0 auto;
+}
+
